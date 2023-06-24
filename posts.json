@@ -2,7 +2,10 @@
   {
     "id": 1,
     "title": "Test blog post",
+    "slug": "test-blog-post",
     "image": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/test-blog-post.md"
+    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/test-blog-post.md",
+    "excerpt": "This is a test blog",
+    "date": "2023-06-24T09:55:19.906Z"
   }
 ]
