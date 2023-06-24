@@ -7,3 +7,22 @@ excerpt: This is a test blog post
 
 # Test blog post
 This is a test blog post
+
+## Following are test code blocks
+
+~~~js
+function hey() {
+  console.log("hey!");
+}
+~~~
+
+~~~py
+def hey():
+  print("hey!")
+~~~
+
+~~~c
+void hey() {
+  printf("%s", "Hey!");
+}
+~~~
