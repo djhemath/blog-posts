@@ -341,7 +341,6 @@ Let’s head straight to the terminal and install a bunch of packages that’ll 
 
 
 ```bash
-
 npm i --save-dev rollup @babel/preset-env @babel/preset-react @babel/preset-typescript @rollup/plugin-babel @rollup/plugin-node-resolve rollup-plugin-typescript2 rollup-plugin-peer-deps-external rollup-plugin-postcss rollup-plugin-terser
 
 ```
