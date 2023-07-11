@@ -7,7 +7,7 @@ excerpt: Publish a typescript based react component library to NPM along with St
 
 Hey folks!
 
-Ever pondered the magical journey of React libraries making their way to NPM? Do you think whipping up some create-react-app and tinkering with JSX is all it takes to publish? Well, let me burst that bubble with a resounding NO. There's a tad more to it, my friends. We need to roll up our sleeves and put in some extra effort. Armed with the power of the internet and fueled by countless cups of caffeine, I embarked on a daring Proof of Concept (POC) adventure over the weekend. And now, it's my time to spread this newfound wisdom among my fellow developers!
+Ever pondered the magical journey of React libraries making their way to NPM? Do you think whipping up some create-react-app and tinkering with JSX is all it takes to publish? Well, let me burst that bubble with a resounding NO. There's a tad more to it!. We need to roll up our sleeves and put in some extra effort. Armed with the power of the internet and fueled by countless cups of caffeine, I embarked on a daring Proof of Concept (POC) adventure over the weekend. And now, it's my time to spread this newfound wisdom among my fellow developers!
 
 Here's the grand plan: we'll set up a React project with TypeScript and sprinkle in some Storybook for development. Then, we'll configure the bundling process to unleash our creation upon the hallowed grounds of NPM.
 
@@ -110,7 +110,7 @@ As we are going to develop reusable components, we can leverage this tool to mak
 To set up storybook run the following command in the project root
 
 
-```
+```bash
 npx storybook@latest init
 ```
 
@@ -138,7 +138,7 @@ Now, I won't bore you with all the nitty-gritty details about the component itse
 We are going to use 1 external package called **contrast-color**. Let’s install it,
 
 
-```
+```bash
 npm install contrast-color
 ```
 
@@ -156,7 +156,7 @@ We need to create a directory named as **src** to house our code. Create directo
 ```
 
 
-```
+```bash
 mkdir src && mkdir src/components && mkdir src/components/Button && cd src && touch index.ts && cd components/Button && touch index.tsx && touch button.css
 ```
 
@@ -262,7 +262,7 @@ Stories are basic units of storybooks. It visualizes how a component looks and w
 Remove all the existing files in the **stories** directory by running the following command from the project root,
 
 
-```
+```bash
 rm -rf stories/*
 ```
 
@@ -322,7 +322,7 @@ export const CustomOnClick: Story = {
 Now run the following command to play with the storybook
 
 
-```
+```bash
 npm run storybook
 ```
 
@@ -340,8 +340,10 @@ So, here's the plan: we're gonna bundle up our masterpiece and ship it in style.
 Let’s head straight to the terminal and install a bunch of packages that’ll help us roll-up (bundle) things.
 
 
-```
+```bash
+
 npm i --save-dev rollup @babel/preset-env @babel/preset-react @babel/preset-typescript @rollup/plugin-babel @rollup/plugin-node-resolve rollup-plugin-typescript2 rollup-plugin-peer-deps-external rollup-plugin-postcss rollup-plugin-terser
+
 ```
 
 
@@ -365,7 +367,7 @@ Now it’s time to configure the rollup. We can do that by creating a file named
 Let’s start by importing all of our plugins,
 
 
-```mjs
+```js
 // rollup.config.mjs
 
 import babel from "@rollup/plugin-babel";
@@ -380,7 +382,7 @@ import typescript from "rollup-plugin-typescript2";
 We also need to import package.json here so that we can configure bundled file names.
 
 
-```mjs
+```js
 // rollup.config.mjs
 
 // ... Other imports
@@ -392,7 +394,7 @@ import packageJson from "./package.json" assert { type: "json" };
 A rollup configuration file should export an array by default. This array will contain the configuration
 
 
-```mjs
+```js
 // rollup.config.mjs
 
 // ... Imports
@@ -438,7 +440,7 @@ Let me explain about this configuration,
 First we specify what is the starting point of our library. Rollup will navigate to all the imports that are made in this file and bundle them together. Unused files will be removed from the bundle during tree-shaking.
 
 
-```mjs
+```js
 export default [
  {
    input: "./src/index.ts",
@@ -451,7 +453,7 @@ export default [
 Next we specify what are all the external packages that we are using. So that rollup bundle external packages too with our code.
 
 
-```mjs
+```js
 export default [
  {
    ...
@@ -490,7 +492,7 @@ We are instructing Node to search for files specified with these names. The sele
 Now we can add our output section in the rollup configuration.
 
 
-```mjs
+```js
 // rollup.config.mjs
 
 export default [
@@ -518,7 +520,7 @@ And finally we put our plugins into the action,
 
 
 
-```mjs
+```js
 // rollup.config.mjs
 
 export default [
@@ -704,13 +706,13 @@ Here’s the complete package.json
 
 Listen up, folks! I've got some tips to help you shine like a superstar when publishing your NPM React library. Are you ready? Here we go:
 
-1. Read Me, Love Me: Your README.md is like the holy grail of documentation. Make it shine by documenting everything about your package in there. And hey, if you're feeling extra fancy, why not create a standalone website just for your package? Link it in your README.md and impress everyone with your dedication!
-2. Show Off with Demos: React components without demos? That's a big no-no! Get those components strutting their stuff by hosting examples and demos. Whether it's through GH pages or tools like CodeSandbox, give your users a taste of what your package can do. It's like a red carpet event for your components!
-3. Version It Like a Boss: When it comes to updating versions, be logical and use the npm version command like a pro. Don't let things get messy. Keep it organized and let your versions tell a story.
-4. Automate All the Things: Why do things manually when you can automate? Set up some sweet automation using tools like Github Actions. It's like having your very own publishing assistant, handling things with ease.
-5. Scoped Names for the Win: Don't be generic, be unique! Use scoped names whenever possible. That way, you won't be stepping on anyone's toes and you'll have your own special corner in the NPM universe.
-6. Package.json Descriptions that Pop: Don't underestimate the power of a good description in your package.json. Make it snappy, informative, and enticing. Let your package's personality shine through!
-7. License Like a Boss: Ah, licenses, the unsung heroes of the open-source world. Learn about them, understand them, and choose wisely. It's like picking the perfect outfit for your package's legal journey.
+1. **Read Me, Love Me**: Your README.md is like the holy grail of documentation. Make it shine by documenting everything about your package in there. And hey, if you're feeling extra fancy, why not create a standalone website just for your package? Link it in your README.md and impress everyone with your dedication!
+2. **Show Off with Demos**: React components without demos? That's a big no-no! Get those components strutting their stuff by hosting examples and demos. Whether it's through GH pages or tools like CodeSandbox, give your users a taste of what your package can do. It's like a red carpet event for your components!
+3. **Version It Like a Boss**: When it comes to updating versions, be logical and use the npm version command like a pro. Don't let things get messy. Keep it organized and let your versions tell a story.
+4. **Automate All the Things**: Why do things manually when you can automate? Set up some sweet automation using tools like Github Actions. It's like having your very own publishing assistant, handling things with ease.
+5. **Scoped Names for the Win**: Don't be generic, be unique! Use scoped names whenever possible. That way, you won't be stepping on anyone's toes and you'll have your own special corner in the NPM universe.
+6. **Package.json Descriptions that Pop**: Don't underestimate the power of a good description in your package.json. Make it snappy, informative, and enticing. Let your package's personality shine through!
+7. **License Like a Boss**: Ah, licenses, the unsung heroes of the open-source world. Learn about them, understand them, and choose wisely. It's like picking the perfect outfit for your package's legal journey.
 
 
 ## Final thoughts
