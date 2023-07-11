@@ -5,8 +5,6 @@ hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.c
 excerpt: Publish a typescript based react component library to NPM along with Storybook setup for development
 ---
 
-# Publish TypeScript based React components to NPM with Storybook setup
-
 Hey folks!
 
 Ever pondered the magical journey of React libraries making their way to NPM? Do you think whipping up some create-react-app and tinkering with JSX is all it takes to publish? Well, let me burst that bubble with a resounding NO. There's a tad more to it, my friends. We need to roll up our sleeves and put in some extra effort. Armed with the power of the internet and fueled by countless cups of caffeine, I embarked on a daring Proof of Concept (POC) adventure over the weekend. And now, it's my time to spread this newfound wisdom among my fellow developers!
