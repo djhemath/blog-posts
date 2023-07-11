@@ -26,5 +26,14 @@
     "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/building-a-like-and-comment-react-component-part1.md",
     "excerpt": "Diving into a project to build a React-based 'like and comment' system for my NextJS blog. This journey explores creating an NPM-installable React component and integrating it into the blog.",
     "date": "2023-06-26T14:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Publish TypeScript based React components to NPM with Storybook setup",
+    "slug": "publish-typeScript-based-react-components-to-npm-with-storybook-setup",
+    "image": "https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fpublish-typeScript-based-react-components-to-npm-with-storybook-setup.png?alt=media&token=86e17e65-48f8-47a9-b7b5-7c9fbc9c5837",
+    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/publish-typeScript-based-react-components-to-npm-with-storybook-setup.md",
+    "excerpt": "Publish a typescript based react component library to NPM along with Storybook setup for development.",
+    "date": "2023-07-11T18:00:00.000Z"
   }
 ]
