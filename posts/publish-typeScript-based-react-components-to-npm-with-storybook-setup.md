@@ -618,8 +618,8 @@ Testing before releasing is an absolute must! We can't just blindly publish our 
 
 One thing we can do to test the installation is using the **npm link** command. From the root of our project run the following command,
 
-bash
-```
+
+```bash
 npm link
 ```
 
