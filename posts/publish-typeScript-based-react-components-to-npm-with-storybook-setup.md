@@ -612,10 +612,29 @@ Add the following property that tells NPM where to look for published code.
 }
 ```
 
+### Before publishing...
 
-Finally, to publish an NPM account is required. Signup if you don’t already have an account.
+Testing before releasing is an absolute must! We can't just blindly publish our package to NPM and hope for the best. It's like jumping off a cliff without checking if our parachute works. Yikes!
 
-Then we need to login to NPM from our terminal first to publish our package. Go into the project root and run the following command.
+One thing we can do to test the installation is using the **npm link** command. From the root of our project run the following command,
+
+bash
+```
+npm link
+```
+
+
+Then create a new react test project. Create with CRA or however you want. Go in to the test project and install our newly built component by running the following command
+
+
+```bash
+npm link project-name
+```
+
+
+Replace “project-name” with our actual component library. Here it’s **@djhemath/react-typescript-storybook-npm-component**. And test our component(s) by using them in that project. If everything works good, we can rollout it to NPM.
+
+To publish, an NPM account is required. Signup if you don’t already have an account. Then we need to login to NPM from our terminal first to publish our package. Go into the project root and run the following command.
 
 
 ```bash
