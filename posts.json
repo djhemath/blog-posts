@@ -44,5 +44,5 @@
     "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/building-a-like-and-comment-react-component-part2.md",
     "excerpt": "As planned, I completed the POC on publishing a React component to NPM along with Storybook setup. Sharing my experience on doing this POC.",
     "date": "2023-06-15T16:00:00.000Z"
-  },
+  }
 ]
