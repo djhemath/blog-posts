@@ -26,5 +26,14 @@
     "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/building-a-like-and-comment-react-component-part1.md",
     "excerpt": "Diving into a project to build a React-based 'like and comment' system for my NextJS blog. This journey explores creating an NPM-installable React component and integrating it into the blog.",
     "date": "2023-06-26T14:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Kids crushed me at chess",
+    "slug": "kids-crushed-me-at-chess",
+    "image": "https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fkid-playing-chess.jpeg?alt=media&token=ba9c1f3d-7f92-416e-97ca-2a19b382d90d",
+    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/kids-crushed-me-at-chess.md",
+    "excerpt": "Kids these days are very smart. I played a couple of matches against kids and they crushed me with out much effort. These games reminded me that how bad I'm at chess and forced me to improve a lot at it.",
+    "date": "2023-12-10T14:10:00.000Z"
   }
 ]
