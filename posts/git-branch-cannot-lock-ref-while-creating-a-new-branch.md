@@ -13,7 +13,7 @@ fatal: cannot lock ref ‘refs/heads/some_branch/feature/ticket’: ‘refs/head
 
 Initially I didn’t understand it. Because I already created similar kinda branches like dev/hemath/feature. But this time it didn’t work. So I did some research on the internet and found a great underrated answer in Stackoverflow. Check it out.
 
-(https://stackoverflow.com/a/71216915)[https://stackoverflow.com/a/71216915]
+[https://stackoverflow.com/a/71216915](https://stackoverflow.com/a/71216915)
 
 As the comment says, I already have a branch named `some_branch`, and it has some commits. The way Git works internally is, it’ll create directories and files as per branch names.
 
