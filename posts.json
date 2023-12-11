@@ -53,5 +53,16 @@
     "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/kids-crushed-me-at-chess.md",
     "excerpt": "Kids these days are very smart. I played a couple of matches against kids and they crushed me with out much effort. These games reminded me that how bad I'm at chess and forced me to improve a lot at it.",
     "date": "2023-12-10T14:10:00.000Z"
+  },
+  {
+    "id": 7,
+    "title": "Git branch cannot lock ref while creating a new branch",
+    "slug": "git-branch-cannot-lock-ref-while-creating-a-new-branch",
+    "image": "https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fissue-1.png?alt=media&token=c8bb904c-4018-4ded-ba79-f062e9d536ce",
+    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/git-branch-cannot-lock-ref-while-creating-a-new-branch",
+    "excerpt": "I was trying to create a branch in some_branch/feature/ticket. But Git thrown cannot lock ref error saying that the branch already exists.",
+    "date": "2023-12-11T08:45:00.000Z",
+    "categories": ["issue"],
+    "sub_categories": ["Git"]
   }
 ]
