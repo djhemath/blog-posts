@@ -12,8 +12,8 @@ It feels like this month passed by quite quickly. Feel like I didn’t accomplis
 I was solving data structure and algorithms problems for a while given by Daily byte as well as some leetcode ones. And I wanted to maintain that streak. But eventually it went off with a little bit of laziness along with the problems getting tougher.
 
 Here are my repos,
-Daily byte (24 problems) - https://github.com/djhemath/The-Daily-Byte-problems
-Other problems (8 problems) - https://github.com/djhemath/Coding-Challenges
+Daily byte (24 problems) - [https://github.com/djhemath/The-Daily-Byte-problems](https://github.com/djhemath/The-Daily-Byte-problems)\
+Other problems (8 problems) - [https://github.com/djhemath/Coding-Challenges](https://github.com/djhemath/Coding-Challenges)
 
 Took an unintentional break with these data structures and algorithms. But I have to return to it to make things easy for me when I switch jobs eventually.
 
@@ -24,7 +24,7 @@ Oh man, finding motivation is not easy with hobby projects. Some days I sit and 
 
 After some days, I found out that we can add something called “Topics” to our repos in Github. It acts like tags. I added that for the frontend repo and the next day I received a comment on one of my issues. A person asked if they could work on that issue. I obviously said yes, but that person didn’t respond.
 
-Checkout the project - https://github.com/Dev-Profile-Page
+Checkout the project - [https://github.com/Dev-Profile-Page](https://github.com/Dev-Profile-Page)
 
 ## The Birthday
 It was a dramatic day. One of my good friends, also a sister “Rij” brought me a cake for my birthday. But she forgot the actual date and ended up visiting me a day before my birthday. It’s kind of a new experience to cut my birthday cake before a day. Her face when she realized that Jan 20 isn’t my birthday was funny.
@@ -109,15 +109,15 @@ I may wait for this week. If there are no good updates, I should take action. Pr
 8. Should stop consuming more content. Spending too much time on reading blogs, newsletter, watching a lot of Youtube videos and Netflix. I should reduce the consumption and start producing things.
 
 ## Movies / series
-1. The wall - https://www.imdb.com/title/tt4218696/
-2. 13 hours - https://www.imdb.com/title/tt4172430/
-3. Breaking bad (season 1) - https://www.imdb.com/title/tt0903747/
-4. Kaithi - https://www.imdb.com/title/tt9900782/
+1. The wall - [https://www.imdb.com/title/tt4218696](https://www.imdb.com/title/tt4218696)
+2. 13 hours - [https://www.imdb.com/title/tt4172430](https://www.imdb.com/title/tt4172430)
+3. Breaking bad (season 1) - [https://www.imdb.com/title/tt0903747](https://www.imdb.com/title/tt0903747)
+4. Kaithi - [https://www.imdb.com/title/tt9900782](https://www.imdb.com/title/tt9900782)
 
 ## Articles I read
-1. https://levelupsoftwareengineering.substack.com/p/30-books-to-help-you-grow?isFreemail=true&post_id=140095305&publication_id=1785490&r=pfkvl&utm_source=pocket_saves
-2. https://zerotomastery.io/cheatsheets/big-o-cheat-sheet
-3. https://dev.to/notachraf/sharing-a-state-between-windows-without-a-serve-23an?ref=dailydev
-4. https://erikmcclure.com/blog/we-could-fix-everything-we-just-dont/?ref=dailydev
-5. https://blog.devdetails.com/p/monoliths-microservices-and-serverless?ref=dailydev
-6. https://dev.to/madsstoumann/a-guide-to-styling-tables-28d2
+1. [https://levelupsoftwareengineering.substack.com/p/30-books-to-help-you-grow?isFreemail=true&post_id=140095305&publication_id=1785490&r=pfkvl&](https://levelupsoftwareengineering.substack.com/p/30-books-to-help-you-grow?isFreemail=true&post_id=140095305&publication_id=1785490&r=pfkvl&)utm_source=pocket_saves
+2. [https://zerotomastery.io/cheatsheets/big-o-cheat-sheet](https://zerotomastery.io/cheatsheets/big-o-cheat-sheet)
+3. [https://dev.to/notachraf/sharing-a-state-between-windows-without-a-serve-23an?ref=dailydev](https://dev.to/notachraf/sharing-a-state-between-windows-without-a-serve-23an?ref=dailydev)
+4. [https://erikmcclure.com/blog/we-could-fix-everything-we-just-dont/?ref=dailydev](https://erikmcclure.com/blog/we-could-fix-everything-we-just-dont/?ref=dailydev)
+5. [https://blog.devdetails.com/p/monoliths-microservices-and-serverless?ref=dailydev](https://blog.devdetails.com/p/monoliths-microservices-and-serverless?ref=dailydev)
+6. [https://dev.to/madsstoumann/a-guide-to-styling-tables-28d2](https://dev.to/madsstoumann/a-guide-to-styling-tables-28d2)
