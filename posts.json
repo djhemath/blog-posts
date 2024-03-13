@@ -80,5 +80,15 @@
     "excerpt": "It feels like this month passed by quite quickly. Feel like I didn’t accomplish that much. But still it’s a good month. I discovered certain aspects of my life, asked a lot of questions to myself and some problems within me.",
     "date": "2024-02-01T21:08:00.000Z",
     "categories": ["journal"]
+  },
+  {
+    "id": 9,
+    "title": "Designers should test UI, not the QA team - Change my mind",
+    "slug": "designers-should-test-UI-not-the-QA-team",
+    "image": "https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fdesigners-should-test-UI-not-the-QA-team.png?alt=media&token=610f1953-0018-4905-a27d-33e396a286c1",
+    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/designers-should-test-UI-not-the-QA-team.md",
+    "excerpt": "Designers who designed that good looking page or navbar should first see it in action. Test it. Well, visually test it. Once designers are happy, then it can be moved to the QA team for further tests.",
+    "date": "2024-03-13T07:10:05.000Z",
+    "categories": ["quality", "process", "personal idea", "mental model"]
   }
 ]
