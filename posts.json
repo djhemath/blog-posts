@@ -90,5 +90,15 @@
     "excerpt": "Designers who designed that good looking page or navbar should first see it in action. Test it. Well, visually test it. Once designers are happy, then it can be moved to the QA team for further tests.",
     "date": "2024-03-13T07:10:05.000Z",
     "categories": ["quality", "process", "personal idea", "mental model"]
+  },
+  {
+    "id": 10,
+    "title": "New project - Investments tracker",
+    "slug": "new-project-investment-tracker",
+    "image": "https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fnew-project-investments-tracker.png?alt=media&token=7c79a16c-b2cd-4278-8f67-bf21d9f66248",
+    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/new-project-investment-tracker.md",
+    "excerpt": "Gonna start another hobby project. It’s an investment tracker that will help me track my investments and helps me know profits made by each investment.",
+    "date": "2024-04-16T08:00:00.000Z",
+    "categories": ["project", "idea", "initiative"]
   }
 ]
