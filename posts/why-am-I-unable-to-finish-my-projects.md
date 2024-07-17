@@ -1,7 +1,6 @@
 ---
 title: Why am I unable to finish my projects?
 date: '2024-07-17T08:00:00.000Z'
-hero_image: https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fperfctionism-abandonment.png?alt=media&token=fdf6bb2b-97cb-4f90-9c59-8c5241072978
 excerpt: I'm not completing the projects that I start. Recently found out that I'm trying to perfect everything that creates a lot of friction and ultimately ends in abandonment.
 category: knowledge
 ---
@@ -12,7 +11,6 @@ That’s why I asked a lot of developers, read a bunch of blogs and watched a to
 1. Perfectionism
 2. Ambitiousness
 
-<br />
 
 Let’s define what are they,
 1. **Perfectionism** - A motivation to do something perfect without any flaws.
@@ -40,7 +38,7 @@ When I tried to build the form that collects details for the website, I paused a
 
 When I started integrating StackOverflow authentication, I over-engineered the auth part so much that I myself got confused in the code flow. I had to go through the code multiple times before making a change. Insanity at high.
 
-<br />
+
 
 There are three behaviours that prevent me doing things,
 1. Trying to know everything before I build something
@@ -62,6 +60,6 @@ My current understanding is that, “Perfect software can and should be built ov
 
 And this is not only for software engineering. This applies to everything in life. We cannot get a perfect partner, we cannot learn something perfectly at the first attempt, etc., With this knowledge in my mind, I’ll pick up my old unfinished projects and try to finish them off one-by-one.
 
-<br/>
+
 
 BTW, to minimise the cost required for hosting this specific product after developing, I came up with an interesting architecture. Saving it for the next article. See’ya’ll soon!
