@@ -100,5 +100,15 @@
     "excerpt": "Gonna start another hobby project. It’s an investment tracker that will help me track my investments and helps me know profits made by each investment.",
     "date": "2024-04-16T08:00:00.000Z",
     "categories": ["project", "idea", "initiative"]
+  },
+  {
+    "id": 11,
+    "title": "Why am I unable to finish my projects?",
+    "slug": "why-am-I-unable-to-finish-my-projects",
+    "image": "https://firebasestorage.googleapis.com/v0/b/dj-hemath-blog.appspot.com/o/blog-images%2Fperfctionism-abandonment.png?alt=media&token=fdf6bb2b-97cb-4f90-9c59-8c5241072978",
+    "url": "https://raw.githubusercontent.com/djhemath/blog-posts/main/posts/why-am-I-unable-to-finish-my-projects.md",
+    "excerpt": "I'm not completing the projects that I start. Recently found out that I'm trying to perfect everything that creates a lot of friction and ultimately ends in abandonment.",
+    "date": "2024-07-17T08:00:00.000Z",
+    "categories": ["project", "knowledge", "self-help"]
   }
 ]
